@@ -28,7 +28,7 @@ def djikstra(start, goal):
             break
         print(f"main iteration: {cn}")
         print(f"Choosing the smallest from current: {roads[current_position]}")
-        smallest_curr_time = 100
+        smallest_curr_time = float("inf")
         pp = None
         for tt, pl in roads[current_position]:
             if tt < smallest_curr_time:
