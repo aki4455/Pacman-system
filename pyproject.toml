@@ -1,7 +1,9 @@
 [project]
-name = "src"
-version = "0.1.0"
-description = "Add your description here"
+name = "maze-chase-ai"
+version = "1.0.0"
+description = "A self-playing maze chase game: every move is decided by BFS, DFS, A* or Greedy best-first search."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pygame>=2.6.1",
+]
